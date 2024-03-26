@@ -1,0 +1,268 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Home*/
+.wrap {
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.logo  {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: #87A922;
+}
+
+.menu {
+    float: right;
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    z-index: 1;
+    border-bottom: 2px solid #696969;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    color: #6b8a0e;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #87A922;
+    margin-top: 70px;
+}
+
+.kolom button {
+    margin-top: 30px;
+    background: #92b528;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.kolom button:hover {
+    background-color: #6b8a0e;
+}
+
+.kolom button a {
+    color: #FFFFFF;
+}
+
+
+.kolom h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #87A922;
+    width: 100%;
+    line-height: 50px;
+}
+/*Home Done*/
+
+/*Gallery*/
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+    background-color: #fafafa;
+    z-index: 2;
+}
+
+.gallery .heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.gallery .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #222;
+    padding-top: 10px;
+}
+
+.gallery .heading h3 span{
+    font-weight: 100;
+    font-family: 'comic sans ms';
+}
+
+.gallery .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.gallery .box .dream {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.gallery .box .dream img {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+/*Gallery Done*/
+
+/*Blog*/
+h2 {
+    margin: auto;
+    position: relative;
+}
+
+.blog {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    height: max-content;
+    margin-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.judul h1 {
+    margin-bottom: 30px;
+}
+
+.gab-foto {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    margin-right: 10px;
+}
+
+.desk p {
+    margin-top: 7px;
+}
+
+#susah {
+    width: 100%;
+}
+
+/*Blog Done*/
+
+/*Footer*/
+
+footer {
+    background-color: #87A922;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.footer-content ul {
+    margin-top: 10px;
+}
+
+.footer-content ul a{
+    margin: 7px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-content ul a:hover {
+    color: rgb(189, 188, 188);
+}
